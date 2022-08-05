@@ -1,0 +1,33 @@
+package day15_ForLoop;
+
+public class ForLoop {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("Hello World!");
+
+        System.out.println("__________________________");
+
+        for (int i = 1; i <= 10; i+=2 ) {//it gives 5 times
+            System.out.println("Hello World!");
+        }
+
+        System.out.println("_________________");
+
+        //      1          2      4
+        for (int i = 1; i <= 10; i++ ) {//it gives 10 times // i: 1,2,3,4,5,6,7,8,9,10,11
+            System.out.println("Hello World!");//i: 1,2,3,4,5,6,7,8,9,10
+        }
+
+    }
+
+}

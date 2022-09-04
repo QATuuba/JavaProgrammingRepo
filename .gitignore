@@ -1,3 +1,4 @@
-/JavaProgramming/.idea/
-/JavaProgramming/out/
-/JavaProgramming/JavaProgramming.iml
+.idea/
+out/
+*.iml
+

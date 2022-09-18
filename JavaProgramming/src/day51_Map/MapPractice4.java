@@ -29,9 +29,27 @@ public class MapPractice4 {
 
         Map<Integer, ArrayList<String>> groups = new TreeMap<>();
         groups.put(1, group1);
+        groups.put(2,group2);
+        groups.put(9, group9);
+        groups.put(24, group24);
+        groups.put(5, group5);
 
 
         System.out.println(groups);
+
+        for (String each : groups.get(9)) {
+            System.out.println(each);
+        }
+
+        System.out.println(groups.get(2).get(1).charAt(1));
+
+        System.out.println("------------------------");
+
+        for (ArrayList<String> eachGroup : groups.values()) {
+            for (String eachName : eachGroup) {
+                System.out.println(eachName);
+            }
+        }
 
 
     }
